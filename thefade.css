@@ -103,7 +103,7 @@ body {
   animation-name: rightFadeInOut;
   animation-delay: 3s;
   animation-duration: 6s;
-  color: #ccc;
+  color: white;
 }
 
 
@@ -113,7 +113,7 @@ body {
   top: 10.5rem;
   left: 10%;
   opacity: 0;
-  color: #F0A3BE;
+  color: white;
   animation-name: fadeInOut;
   animation-delay: 8.5s;
   animation-duration: 9s;
@@ -125,7 +125,7 @@ body {
   left: 5%;
   bottom: 25%;
   opacity: 0;
-  color: #F0EBA3;
+  color: white;
   animation-name: bottomFadeOut;
   animation-delay: 10s;
   animation-duration: 9s;
