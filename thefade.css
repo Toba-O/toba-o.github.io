@@ -182,7 +182,7 @@ a:hover {
   float: left;
   width: 60%;
   padding: 0 20px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 @media only screen and (max-width:800px) {
