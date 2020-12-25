@@ -118,7 +118,7 @@ body {
   position: absolute;
   left: 5%;
   bottom: 25%;
-  opacity: 0;
+  opacity: 100;
   animation-name: bottomFadeOut;
   animation-delay: 11.5s;
   animation-duration: 9s;
