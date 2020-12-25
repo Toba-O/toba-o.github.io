@@ -124,5 +124,6 @@ body {
   animation-name: bottomFadeOut;
   animation-delay: 11.5s;
   animation-duration: 9s;
+  animation-fill-mode: forwards; 
   color: #fff;
 }
