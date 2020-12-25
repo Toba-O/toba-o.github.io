@@ -173,29 +173,3 @@ a:hover {
   animation-fill-mode: forwards; 
   color: #fff;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-.main {
-  float: left;
-  width: 60%;
-  padding: 0 20px;
-  overflow: auto;
-}
-
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .main {
-    width: 80%;
-    padding: 0;
-  } 
-}
-
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-   .main, {
-    width: 100%;
-  }
-}
