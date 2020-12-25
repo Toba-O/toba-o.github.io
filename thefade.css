@@ -10,7 +10,26 @@ body {
   position: relative;
 }
 
+a {
+    font-weight: 600;
+    background-image:
+        linear-gradient(
+            to bottom, #e57373 0%,
+            #e57373 100%
+        );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.76);
+    transition: background-size .2s, color .2s;
+    width: auto;
+}
 
+a:hover {
+    color: #002b36;
+    background-size: 4px 50px;
+}
 
 @keyframes topFadeOut {
   0% {
@@ -156,3 +175,4 @@ body {
   animation-fill-mode: forwards; 
   color: #fff;
 }
+
