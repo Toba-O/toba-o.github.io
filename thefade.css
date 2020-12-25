@@ -6,7 +6,7 @@ body {
   width: 75%;
   height: 27.5rem;
   margin: 0 auto;
-  overflow: hidden;
+  overflow: auto;
   position: relative;
 }
 
