@@ -80,6 +80,20 @@ body {
   }
 }
 
+@keyframes fadeInOut2 {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
 .first-text {
   font-size: 4.4rem;
   position: absolute;
@@ -123,6 +137,21 @@ body {
   opacity: 0;
   animation-name: bottomFadeOut;
   animation-delay: 11.5s;
+  animation-duration: 9s;
+  animation-fill-mode: forwards; 
+  color: #fff;
+}
+
+
+
+.sixth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  top: 80.5%;
+  left: 5%;
+  opacity: 0;  
+  animation-name: fadeInOut2;
+  animation-delay: 4s;
   animation-duration: 9s;
   animation-fill-mode: forwards; 
   color: #fff;
