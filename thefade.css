@@ -1,0 +1,37 @@
+body {
+  font-size: 62.5%;
+  font-style: Arial;
+}
+
+
+@keyframes bottomFadeOut {
+  0% {
+    position: absolute;
+    bottom: -5rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    bottom: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+  
+}
+
+
+.fifth-text {
+  font-size: 5rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  opacity: 0;
+  color: #d9d9d9;
+  animation-name: bottomFadeOut;
+  animation-delay: 1s;
+  animation-duration: 3s;
+}
