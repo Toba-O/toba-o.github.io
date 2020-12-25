@@ -48,23 +48,7 @@ body {
   
 }
 
-@keyframes topFadeOutVertical {
-  0% {
-    position: absolute;
-    top: -3rem;
-    opacity: 0;
-  }
-
-  75% {
-    position: absolute;
-    top: 45%;
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
+ 
 
 @keyframes rightFadeInOut {
   0% {
@@ -121,19 +105,6 @@ body {
   color: #ccc;
 }
 
-.third-text {
-  transform: rotate(-90deg);
-  font-size: 2rem;
-  position: absolute;
-  left: 45%;
-  top: 45%;
-  opacity: 0;
-  animation-name: topFadeOutVertical;
-  animation-delay: 7.5s;
-  animation-duration: 6s;
-  color: #A3DDF0;
-  white-space: nowrap;
-}
 
 .fourth-text {
   font-size: 3.4rem;
