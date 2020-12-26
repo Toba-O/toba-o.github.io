@@ -83,8 +83,8 @@ a:hover {
   left: 5.5%;
   opacity: 0;  
   animation-name: fadeInOut2;
-  animation-delay: 3s;
-  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-duration: 4s;
   animation-fill-mode: forwards; 
   color: #fff;
 }
