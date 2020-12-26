@@ -31,23 +31,6 @@ a:hover {
     background-size: 6px 50px;
 }
 
-@keyframes topFadeOut {
-  0% {
-    position: absolute;
-    top: -3rem;
-    opacity: 0;
-  }
-
-  75% {
-    position: absolute;
-    top: 25%;
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
 
 @keyframes bottomFadeOut {
   0% {
@@ -66,24 +49,6 @@ a:hover {
   }
 }
   
-@keyframes rightFadeInOut {
-  0% {
-    position: absolute;
-    right: -3rem;
-    opacity: 0;
-  }
-
-  75% {
-    position: absolute;
-    right: 10rem;
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-    right: 10rem;
-  }
-}
 
 @keyframes fadeInOut {
   0% {
@@ -177,3 +142,46 @@ a:hover {
 
 
 /*** Scrapped/No longer in use 
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+  
+@keyframes rightFadeInOut {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 10rem;
+  }
+}
+
+
+
+
+
+***/
