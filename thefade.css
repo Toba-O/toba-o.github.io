@@ -78,7 +78,7 @@ a:hover {
   animation-name: bottomFadeOut;
   animation-duration: 4s;
   animation-fill-mode: forwards; 
-  color: #fff;
+  color: rgba(62, 119, 135, 0.76);
 }
 
 .sixth-text {
@@ -91,5 +91,5 @@ a:hover {
   animation-delay: 1.75s;
   animation-duration: 4s;
   animation-fill-mode: forwards; 
-  color: #fff;
+  color: rgba(62, 119, 135, 0.76);
 }
