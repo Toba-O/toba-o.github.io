@@ -71,7 +71,6 @@ a:hover {
   bottom: 25%;
   opacity: 0;
   animation-name: bottomFadeOut;
-  animation-delay: 2s;
   animation-duration: 9s;
   animation-fill-mode: forwards; 
   color: #fff;
@@ -84,7 +83,7 @@ a:hover {
   left: 5.5%;
   opacity: 0;  
   animation-name: fadeInOut2;
-  animation-delay: 5s;
+  animation-delay: 3s;
   animation-duration: 9s;
   animation-fill-mode: forwards; 
   color: #fff;
