@@ -71,7 +71,7 @@ a:hover {
   bottom: 25%;
   opacity: 0;
   animation-name: bottomFadeOut;
-  animation-duration: 7s;
+  animation-duration: 4s;
   animation-fill-mode: forwards; 
   color: #fff;
 }
@@ -84,10 +84,48 @@ a:hover {
   opacity: 0;  
   animation-name: fadeInOut2;
   animation-delay: 3s;
-  animation-duration: 7s;
+  animation-duration: 4s;
   animation-fill-mode: forwards; 
   color: #fff;
 }
+
+
+@media screen and (max-width: 991px) {
+/* start of large tablet styles */
+
+}
+
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+
+}
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*** Scrapped/No longer in use 
