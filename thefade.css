@@ -83,27 +83,13 @@ a:hover {
   left: 5.5%;
   opacity: 0;  
   animation-name: fadeInOut2;
-  animation-delay: 1.25s;
+  animation-delay: 1.5s;
   animation-duration: 4s;
   animation-fill-mode: forwards; 
   color: #fff;
 }
 
 
-@media screen and (max-width: 991px) {
-/* start of large tablet styles */
-
-}
-
-@media screen and (max-width: 767px) {
-/* start of medium tablet styles */
-
-}
-
-@media screen and (max-width: 479px) {
-/* start of phone styles */
-
-}
 
 
 
