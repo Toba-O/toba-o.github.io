@@ -26,7 +26,7 @@ a {
     background-repeat: repeat-x;
     background-size: 4px 4px;
     text-decoration: none;
-    color: rgba(62, 119, 135, 0.76);
+    color: rgba(43, 83, 94 0.76);
     transition: background-size .2s, color .2s;
     width: auto;
 }
