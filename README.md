@@ -8,7 +8,7 @@ Repository projects landing page!
 - [ ] Favicon
 - [ ] Parallax scrolling
 - [ ] Horizontally oriented hero image on mobile
-- [x] Bio as markdown
+- [ ] Bio as markdown
 - [ ] Resources page
 - [x] Fade in animations
 - [ ] Logo for each project
