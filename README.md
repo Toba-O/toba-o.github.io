@@ -1,6 +1,6 @@
 # toba-o.github.io
 Repository projects landing page!
->by Toba Ojo
+>by [Toba Ojo](https://tobaojo.com) &middot; [Website](https://toba-o.github.io/) <!-- Replace link with download link) -->
 ---
 
 ### Short term todo
