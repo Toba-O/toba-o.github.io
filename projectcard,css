@@ -1,0 +1,54 @@
+img {
+    height: 130px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: -10px;
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+
+.card {
+    display: flex;
+    align-items: top;
+    margin: 30px 0 30px 0;
+}
+
+.card > img {
+    margin-right: 15px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+.desc > h5 {
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+
+.desc > p {
+    font-size: 0.9rem;
+    line-height: 1.5em;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.more {
+    margin-top: 5px;
+    display: block;
+}
+
+@media(max-width: 700px) {
+    .card {
+        display: block;
+    }
+}
