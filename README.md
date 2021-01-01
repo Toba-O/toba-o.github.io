@@ -34,7 +34,7 @@ Repository projects landing page!
 - [ ] Apply page hero image and hero content
 - [ ] Blog index page hero image and hero content
 
-### Longer term todo
+### Long term todo
 
 - [ ] More blog posts
 - [ ] Google tag manager
