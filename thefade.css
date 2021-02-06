@@ -37,47 +37,12 @@ a:hover {
 }
 
 
-@keyframes bottomFadeOut {
-  0% {
-    position: absolute;
-    bottom: -5rem;
-    opacity: 0;
-  }
-
-  75% {
-    position: absolute;
-    bottom: 25%;
-    opacity: 1;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
-  
-@keyframes fadeInOut2 {
-  0% {
-    opacity: 0;
-  }
-
-  45% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 100%;
-  }
-}
-
-
 .fifth-text {
   font-size: 5rem;
   position: absolute;
   left: 5%;
   bottom: 25%;
   opacity: 0;
-  animation-name: bottomFadeOut;
-  animation-duration: 4s;
-  animation-fill-mode: forwards; 
   color: rgba(62, 119, 135, 0.76);
 }
 
@@ -87,9 +52,5 @@ a:hover {
   top: 80.5%;
   left: 5.5%;
   opacity: 0;  
-  animation-name: fadeInOut2;
-  animation-delay: 1.75s;
-  animation-duration: 4s;
-  animation-fill-mode: forwards; 
   color: rgba(62, 119, 135, 0.76);
 }
