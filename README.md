@@ -39,4 +39,3 @@ Repository projects landing page!
 - [ ] More blog posts
 - [ ] Google tag manager
 - [ ] More visual content for each project page in markdown
-- [ ] Test2
