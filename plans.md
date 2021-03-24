@@ -1,1 +1,0 @@
-- Different animation types for home page texts?
