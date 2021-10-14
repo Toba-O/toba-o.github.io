@@ -2,7 +2,7 @@
 public-private
 
 # Ideas to discuss 
-- [] Color themes
+- [ ] Color themes
 - [] Roles of members
 - [] Directories
   - [] Index
