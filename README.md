@@ -2,7 +2,7 @@
 Repository projects landing page!
 >by [Toba Ojo](https://tobaojo.com) &middot; [Website](https://toba-o.github.io/) <!-- Replace link with download link) -->
 ---
-
+<!--
 ### Short term todo
 
 - [ ] Favicon
@@ -39,3 +39,4 @@ Repository projects landing page!
 - [ ] More blog posts
 - [ ] Google tag manager
 - [ ] More visual content for each project page in markdown
+-->
