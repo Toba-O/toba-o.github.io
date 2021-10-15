@@ -1,7 +1,7 @@
 # toba-o.github.io
 public-private
 
-# Ideas to discuss 
+### Ideas to discuss 
 - [ ] Color themes
 - [ ] Roles of members
 - [ ] Directories
