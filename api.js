@@ -40,7 +40,7 @@ fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=30.0444&lon=31.
 })
 .then(response => response.json())
 .then(data => {
-  
+  solution(data, '.cairoaqi');
 });
 
 fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=48.8566&lon=2.3522&hours=72", {
@@ -52,7 +52,7 @@ fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=48.8566&lon=2.3
 })
 .then(response => response.json())
 .then(data => {
-  console.log(data);
+  solution(data, '.parisaqi');
 });
 
 fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=40.7128&lon=-74.0060&hours=72", {
@@ -64,7 +64,7 @@ fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=40.7128&lon=-74
 })
 .then(response => response.json())
 .then(data => {
-  console.log(data);
+  solution(data, '.newyorkaqi');
 });
 
 fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=-23.5558&lon=-46.6396&hours=72", {
@@ -76,7 +76,7 @@ fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=-23.5558&lon=-4
 })
 .then(response => response.json())
 .then(data => {
-  console.log(data);
+  solution(data, '.saopauloaqi');
 });
 
 fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=19.0760&lon=72.8777&hours=72", {
@@ -88,7 +88,7 @@ fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=19.0760&lon=72.
 })
 .then(response => response.json())
 .then(data => {
-  console.log(data);
+  solution(data, '.mumbaiaqi');
 });
 
 fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=19.4326&lon=-99.1332&hours=72", {
@@ -100,6 +100,6 @@ fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=19.4326&lon=-99
 })
 .then(response => response.json())
 .then(data => {
-  console.log(data);
+  solution(data, '.mexicocityaqi');
 });
 });
