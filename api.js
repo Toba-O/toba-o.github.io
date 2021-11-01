@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
     } else if (city >= 151 && city <= 200) {
       return "red";
     } else if (city >= 201 && city <= 300) {
-      return "burgundy";
-    } else {
       return "maroon";
+    } else {
+      return "burgundy";
     }
   }
 fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=35.6762&lon=139.6503&hours=72", {
