@@ -1,6 +1,7 @@
 /*** Navbar ***/
 .nav-menu-top {
   padding-top: 25px;
+  
 }
 .nav-item .nav-link {
   font-family: "Inter", sans-serif;
@@ -37,7 +38,7 @@
   font-family: "Inter", sans-serif !important;
   height: auto;
   padding-top: 100px;
-  background: #3755be;
+  background: green;
   color: #fff;
   width: 100% !important;
 }
