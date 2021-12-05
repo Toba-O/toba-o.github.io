@@ -1,8 +1,28 @@
 document.addEventListener('DOMContentLoaded', function() {
-  function solution(data, city) {
-    ans = Math.round(data.data[0].aqi);
-    document.querySelector(city).innerHTML = ans;
-    document.querySelector(city).style.color = determinecolor(ans);
+  function solution(city) {
+	fetch(("https://air-quality-by-api-ninjas.p.rapidapi.com/v1/airquality?city=" + city), {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-host": "air-quality-by-api-ninjas.p.rapidapi.com",
+		"x-rapidapi-key": "dca0b29f8cmshddb3b0e17a561e2p1ead4bjsnb82d93d300ff"
+	}
+})
+.then(response => response.json())
+.then(data => {
+	ans = data.overall_aqi;
+  
+  var temp = "";
+  for (var i = 0; i < city.length; i++) {
+  	if (!(city[i] == " ")) {
+  	temp += city[i];
+  }
+  }
+  
+	inner = "." + temp + "aqi";
+    	document.querySelector(inner).innerHTML = ans;
+    	document.querySelector(inner).style.color = determinecolor(ans);
+});
+    
   }
   function determinecolor(city) {
     if (city >= 0 && city <= 50) {
@@ -16,91 +36,14 @@ document.addEventListener('DOMContentLoaded', function() {
     } else if (city >= 201 && city <= 300) {
       return "maroon";
     } else {
-      return "burgundy";
+      return "purple";
     }
   }
-fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=35.6762&lon=139.6503&hours=72", {
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-host": "air-quality.p.rapidapi.com",
-		"x-rapidapi-key": "dca0b29f8cmshddb3b0e17a561e2p1ead4bjsnb82d93d300ff"
-	}
-})
-.then(response => response.json())
-.then(data => {
-  solution(data, '.tokyoaqi');
-});
-
-fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=30.0444&lon=31.2357&hours=72", {
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-host": "air-quality.p.rapidapi.com",
-		"x-rapidapi-key": "dca0b29f8cmshddb3b0e17a561e2p1ead4bjsnb82d93d300ff"
-	}
-})
-.then(response => response.json())
-.then(data => {
-  solution(data, '.cairoaqi');
-});
-
-fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=23.8103&lon=90.4125&hours=72", {
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-host": "air-quality.p.rapidapi.com",
-		"x-rapidapi-key": "dca0b29f8cmshddb3b0e17a561e2p1ead4bjsnb82d93d300ff"
-	}
-})
-.then(response => response.json())
-.then(data => {
-  solution(data, '.dhakaaqi');
-
-});
-
-fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=40.7128&lon=-74.0060&hours=72", {
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-host": "air-quality.p.rapidapi.com",
-		"x-rapidapi-key": "dca0b29f8cmshddb3b0e17a561e2p1ead4bjsnb82d93d300ff"
-	}
-})
-.then(response => response.json())
-.then(data => {
-  solution(data, '.newyorkaqi');
-});
-
-fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=-23.5558&lon=-46.6396&hours=72", {
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-host": "air-quality.p.rapidapi.com",
-		"x-rapidapi-key": "dca0b29f8cmshddb3b0e17a561e2p1ead4bjsnb82d93d300ff"
-	}
-})
-.then(response => response.json())
-.then(data => {
-  solution(data, '.saopauloaqi');
-});
-
-fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=19.0760&lon=72.8777&hours=72", {
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-host": "air-quality.p.rapidapi.com",
-		"x-rapidapi-key": "dca0b29f8cmshddb3b0e17a561e2p1ead4bjsnb82d93d300ff"
-	}
-})
-.then(response => response.json())
-.then(data => {
-  solution(data, '.mumbaiaqi');
-});
-
-fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=19.4326&lon=-99.1332&hours=72", {
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-host": "air-quality.p.rapidapi.com",
-		"x-rapidapi-key": "dca0b29f8cmshddb3b0e17a561e2p1ead4bjsnb82d93d300ff"
-	}
-})
-.then(response => response.json())
-.then(data => {
-  solution(data, '.mexicocityaqi');
-});
+solution("Tokyo");
+solution("Cairo");
+solution("Dhaka");
+solution("New York");
+solution("Sao Paulo");
+solution("Mumbai");
+solution("Mexico City");
 });
