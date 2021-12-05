@@ -43,7 +43,7 @@ fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=30.0444&lon=31.
   solution(data, '.cairoaqi');
 });
 
-fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=23.6850&lon=90.4125&hours=72", {
+fetch("https://air-quality.p.rapidapi.com/history/airquality?lat=23.8103&lon=90.4125&hours=72", {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "air-quality.p.rapidapi.com",
