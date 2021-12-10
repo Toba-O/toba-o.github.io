@@ -33,6 +33,37 @@
 .nav-item .nav-link:hover::after {
   transform: scaleX(0.3);
 }
+.card-title {
+  color: #ffffff !important;
+  font-size: 1.25em;
+}
+.card-text {
+  font-weight: 600;
+  color: #ccdceb !important;
+}
+.card-hover {
+  background-color: #3755be !important;
+  transition: 0.4s;
+}
+.card-hover:hover svg {
+  transition: 0.4s;
+  fill: #fff !important;
+}
+/* Card changes color on hover */
+.card-hover:hover {
+  background-color: #6479c3 !important;
+  color: white !important;
+  cursor: pointer !important;
+}
+/* Subtext changes on card hover */
+.card-hover:hover .text-muted {
+  color: white !important;
+}
+/* Icon changes on card hover */
+.card-hover:hover .bi {
+  color: white !important;
+}
+
 /*** Footer Section ***/
 .footer-section {
   font-family: "Inter", sans-serif !important;
