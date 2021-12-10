@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var temp = "";
   for (var i = 0; i < city.length; i++) {
   	if (!(city[i] == " ")) {
-  	temp += city[i];
+  	temp += city[i].toLowerCase();
   }
   }
   
