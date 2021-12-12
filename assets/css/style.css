@@ -63,6 +63,12 @@
 .card-hover:hover .bi {
   color: white !important;
 }
+.gap {
+  content: "";
+  background: #fff;
+  height: 20%;
+  width: 100%;
+}
 
 /*** Footer Section ***/
 .footer-section {
