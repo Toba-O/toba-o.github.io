@@ -360,6 +360,7 @@ body {
   letter-spacing: -1.575px;
   line-height: 57.75px;
 }
+  
 .statdesc {
   padding-top: 35px;
   font-family: "Inter", sans-serif;
@@ -372,6 +373,34 @@ body {
   line-height: 32px;
   vertical-align: middle;
 }
+  
+/** Underline Animation **/
+[data-aos="secondmark"] {
+  color: inherit;
+  padding: 0;
+  background: none;
+  background-image: linear-gradient(120deg, rgba(56, 134, 89, 0.4) 0%, rgba(56, 134, 89, 0.4) 100%);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 0.3em;
+  position: relative;
+}
+
+@keyframes animateMark {
+  0% {
+    background-size: 0% 0.3em;
+  }
+  100% {
+    background-size: 100% 0.25em;
+  }
+}
+
+[data-aos="secondmark"].aos-animate {
+  animation: animateMark 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+  
 
 /*** Summary Section ***/
 .summary-section {
