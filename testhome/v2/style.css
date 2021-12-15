@@ -224,8 +224,8 @@ body {
 }
 
 .heroheader {
-  font-family: "Inter", sans-serif;
-  font-weight: 900 !important;
+  font-family: Lora, serif;
+  font-weight: 400 !important;
   color: rgb(33, 37, 41);
   display: block;
   line-height: 53px;
@@ -241,7 +241,7 @@ body {
 }
 
 .herocontent {
-  font-family: "Inter", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 400 !important;
   color: rgb(85, 85, 85);
   display: block;
