@@ -613,7 +613,7 @@ body {
   display: block;
   text-align: left;
   background: #fff;
-  color: #3755be;
+  color: #388659;
   padding: 20px;
   font-weight: 600;
 }
@@ -623,17 +623,17 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   float: right;
-  color: #3755be;
+  color: #388659;
 }
 
 #main #faq .card .card-header .btn-header-link.collapsed {
   background: #fff;
-  color: #212529;
+  color: #388659;
 }
 
 #main #faq .card .card-header .btn-header-link.collapsed::after {
   content: "+";
-  color: #3755be;
+  color: #388659;
 }
 
 #main #faq .card .collapsing {
@@ -654,7 +654,7 @@ body {
 
 /*** Card Effects ***/
 #main #faq .card .card-header .btn-header-link:hover {
-  color: #3755be;
+  color: #388659;
 }
 
 .card:hover {
