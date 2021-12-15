@@ -423,7 +423,7 @@ body {
   color: #ccdceb !important;
 }
 .card-hover {
-  background-color: #30c13f !important;
+  background-color: #f3f8f5 !important;
   transition: 0.4s;
 }
 
@@ -434,7 +434,7 @@ body {
 
 /* Card changes color on hover */
 .card-hover:hover {
-  background-color: #269a32 !important;
+  background-color: #215035 !important;
   color: white !important;
   cursor: pointer !important;
 }
