@@ -88,7 +88,7 @@ body {
   display: inline;
   font-size: 12px;
   text-transform: uppercase;
-  background-color: #30c13f;
+  background-color: #388659;
   vertical-align: middle;
   letter-spacing: 0.17px;
   margin-right: 15px;
@@ -348,7 +348,7 @@ body {
 }
 
 .stat {
-  color: #30c13f;
+  color: #388659;
   position: relative;
   padding-top: 50px;
   font-weight: 800;
