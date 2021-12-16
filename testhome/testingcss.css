@@ -515,7 +515,7 @@ body {
 
 .effectword {
   display: inline;
-  color: #30c13f;
+  color: #388659;
 }
   
  .svgarrow {
@@ -715,7 +715,7 @@ body {
   font-family: "Inter", sans-serif !important;
   height: auto;
   padding-top: 100px;
-  background: #388659;
+  background: #30c13f;
   color: #fff;
   width: 100% !important;
 }
@@ -747,7 +747,7 @@ body {
    margin: 0;
    padding-bottom: 40px;
    padding-top: 15px;
-   background: #215035;
+   background: #269a32;
    color: white;
    text-decoration: none;
    text-align: center;
