@@ -996,10 +996,3 @@ body {
     font-size: 4vh !important;
   }
 }
-
-.carousel-inner {
-  disply: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
