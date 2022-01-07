@@ -38,12 +38,12 @@ body {
     -webkit-animation-name: bodyfade;
     animation-name: bodyfade;
   }
-  
+
   @-webkit-keyframes bodyfade {
             0% {opacity: 0;}
             100% {opacity: 1;}
          }
-         
+
          @keyframes bodyfade {
             0% {opacity: 0;}
             100% {opacity: 1;}
@@ -135,7 +135,7 @@ body {
 
 
 .wrapper {
-  
+
   margin:0 auto;
   text-align:center;
 }
@@ -211,7 +211,7 @@ body {
     bottom: 0;
     transform: rotate(-90deg);
     transition: bottom 0.1s ease, transform 0.1s 0.14s cubic-bezier(0.215, 0.61, 0.355, 1); }
-  
+
 /*** Hero Section ***/
 .hero-section {
   height: auto;
@@ -360,7 +360,7 @@ body {
   letter-spacing: -1.575px;
   line-height: 57.75px;
 }
-  
+
 .statdesc {
   padding-top: 35px;
   font-family: "Inter", sans-serif;
@@ -373,7 +373,7 @@ body {
   line-height: 32px;
   vertical-align: middle;
 }
-  
+
 /** Underline Animation **/
 [data-aos="secondmark"] {
   color: inherit;
@@ -400,7 +400,7 @@ body {
   animation-fill-mode: forwards;
   animation-delay: 1s;
 }
-  
+
 
 /*** Summary Section ***/
 .summary-section {
@@ -498,12 +498,12 @@ body {
   line-height: 53px;
   vertical-align: middle;
 }
-  
+
 .endingblock {
     display: block;
     height: 5%;
   }
-  
+
   .phraseinline {
     display: inline-block !important;
   }
@@ -517,7 +517,7 @@ body {
   display: inline;
   color: #388659;
 }
-  
+
  .svgarrow {
     display: flex;
     justify-content: center;
@@ -544,7 +544,7 @@ body {
 .custom-shape-divider-top-1613079776 .shape-fill {
   fill: #f3f8f5;
 }
-  
+
 .testimonials-section {
   font-family: "Inter", sans-serif;
   height: auto;
@@ -586,15 +586,15 @@ body {
   color: black !important;
 }
 
-  .fromwho {     
+  .fromwho {
   font-weight: 600;
   color: #269a32 !important;
   }
-  
+
   .fromwhosize {
     font-size: 13px;
   }
-  
+
   .customb {
     border-radius: 10px !important;
   }
@@ -995,4 +995,11 @@ body {
   .heroheader {
     font-size: 4vh !important;
   }
+}
+
+.carousel-inner {
+  disply: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
