@@ -172,45 +172,80 @@
         </nav>
         <!-- End Header -->
       </header>
+      <br>
+      <style>
+      .carousel-inner {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
+        border: 2px solid #30c13f;
+        border-radius: 20px;
+      }
+      #slide {
+        margin-top: 0;
+        color: #30c13f;
+        background-color: #30c13f;
+      }
+      #button:hover {
+        background-color: #000;
+        opacity: 0.5;
+        height: 30px;
+      }
+      .h5 {
+        cursor: none;
+      }
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h1><center>Home</center></h1>
-            <img onclick="window.location.href='https://toba-o.github.io/tips/home.html'" class="d-block w-100" src="../assets/images/home.jpg" alt="First slide">
-            <div class="carousel-caption d-none d-md-block">
-            </h5>(Click Here)</h5>
-          </div>
-          </div>
-          <div class="carousel-item">
-            <h1><center>Work</center></h1>
-            <img onclick="window.location.href='https://toba-o.github.io/tips/work.html'" class="d-block w-100" src="../assets/images/work.jpg" alt="Second slide">
-            <div class="carousel-caption d-none d-md-block">
-            </h5>(Click Here)</h5>
-          </div>
-          </div>
-          <div class="carousel-item">
-            <h1><center>Travel</center></h1>
-            <img onclick="window.location.href='https://toba-o.github.io/tips/travel.html'" class="d-block w-100" src="../assets/images/travel.jpg" alt="Third slide">
-            <div class="carousel-caption d-none d-md-block">
-            </h5>(Click Here)</h5>
-          </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+      </style>
+        <center>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li id="slide" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li id="slide" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li id="slide" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h1><center>Home</center></h1>
+                  <br>
+                  <img onclick="window.location.href='https://toba-o.github.io/tips/home.html'" class="d-block w-100" src="../assets/images/home.jpg" alt="First slide">
+                  <div class="carousel-caption d-none d-md-block">
+                  </h5 class="h5">(Click Here)</h5>
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <h1><center>Work</center></h1>
+                  <br>
+                  <img onclick="window.location.href='https://toba-o.github.io/tips/work.html'" class="d-block w-100" src="../assets/images/work.jpg" alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                  </h5 class="h5">(Click Here)</h5>
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <h1><center>Travel</center></h1>
+                  <br>
+                  <img onclick="window.location.href='https://toba-o.github.io/tips/travel.html'" class="d-block w-100" src="../assets/images/travel.jpg" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                  </h5 class="h5">(Click Here)</h5>
+                </div>
+              </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span id="button" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span id="button" class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
         </div>
       </div>
+        </center>
   </body>
       <section class="gap"></section>
 
