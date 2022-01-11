@@ -1,3 +1,6 @@
+body {
+  font-family: "Inter";
+}
 @media (max-width: 1920px) {
 /** Main **/
 [data-aos="heroimg"] {
@@ -1001,6 +1004,16 @@ body {
     width: 37.5%;
     height: 25%;
   }
-.cardgroups {
-  background-color: #30c13f;
- }
+
+  #heading {
+    background-color: #f3f8f5;
+    font-family: "Inter";
+  }
+  
+  #btn {
+    color: #269a32;
+  }
+  .card-body {
+    color: #30c13f;
+    font-family: "Inter";
+  }
