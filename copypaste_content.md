@@ -7,7 +7,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <meta name="keywords" content="Medicomm, Medicomm.org, medicomm, organization, company, Medicine, Telecommunications, medical communications, medical, telemedicine, telemed, medicomm org, medicomm .org" />
     <meta name="description" content="Medicomm is a medical telecommunications company dedicated to producing medical utilities and equipment for all companies, big or small!  Join or partner with us today" />
     <meta name="theme-color" content="#ffffff" />
     <meta property="og:locale" content="en_US" />
