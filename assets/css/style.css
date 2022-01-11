@@ -1021,3 +1021,8 @@ body {
     background-color: #269a32;
     color: #ffffff;
   }
+  
+.mb-3 {
+    width: 75%;
+    height: 56.25%;
+  }
