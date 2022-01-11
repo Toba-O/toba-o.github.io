@@ -1,3 +1,101 @@
+### Head/Meta Information
+
+```
+ <head>
+    <title>Home | RCF &copy;</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="keywords" content="Medicomm, Medicomm.org, medicomm, organization, company, Medicine, Telecommunications, medical communications, medical, telemedicine, telemed, medicomm org, medicomm .org" />
+    <meta name="description" content="Medicomm is a medical telecommunications company dedicated to producing medical utilities and equipment for all companies, big or small!  Join or partner with us today" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="organization" />
+    <meta property="og:title" content="Medicomm Telecommunications" />
+    <meta property="og:description" content="Medicomm is a medical telecommunications company dedicated to producing medical utilities and equipment for all companies, big or small!  Join or partner with us today" />
+    <meta property="og:url" content="https://medicomm.org/" />
+    <meta property="og:site_name" content="Medicomm" />
+    <meta name="og:image" content="/assets/images/Logo.png" />
+
+    <link rel="icon" type="image/png" href="/assets/images/Logo.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/assets/images/medicomm_favicon_32.png" sizes="32x32" />
+    <link rel="apple-touch-icon" type="image/png" href="/assets/images/medicomm_favicon_180.png" sizes="180x180" />
+    <link rel="icon" type="image/png" href="/assets/images/medicomm_favicon_192.png" sizes="192x192" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/assets/images/medicomm_favicon_270.png" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://toba-o.github.io/assets/css/style.css" media="all" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+      /* Typing Animation */
+      .loading-animation {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        animation: typing 1s linear infinite alternate;
+        position: relative;
+        left: -12px;
+      }
+
+      @keyframes typing {
+        0% {
+          background-color: rgba(100, 100, 100, 1);
+          box-shadow: 12px 0px 0px 0px rgba(100, 100, 100, 0.2), 24px 0px 0px 0px rgba(100, 100, 100, 0.2);
+        }
+
+        25% {
+          background-color: rgba(100, 100, 100, 0.4);
+          box-shadow: 12px 0px 0px 0px rgba(100, 100, 100, 2), 24px 0px 0px 0px rgba(100, 100, 100, 0.2);
+        }
+
+        75% {
+          background-color: rgba(100, 100, 100, 0.4);
+          box-shadow: 12px 0px 0px 0px rgba(100, 100, 100, 0.2), 24px 0px 0px 0px rgba(100, 100, 100, 1);
+        }
+      }
+      @keyframes hideLoader {
+        0% {
+          width: 100%;
+          height: 100%;
+        }
+        100% {
+          width: 0;
+          height: 0;
+        }
+      }
+      body > div.loader {
+        position: fixed;
+        background: white;
+        width: 100%;
+        height: 100%;
+        z-index: 1071;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        overflow: hidden;
+        pointer-events: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      body:not(.loaded) > div.loader {
+        opacity: 1;
+      }
+      body:not(.loaded) {
+        overflow: hidden;
+      }
+      body.loaded > div.loader {
+        animation: hideLoader 0.5s linear 0.5s forwards;
+      }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+  </head>
+  
+  ```
 ### Footer
 
 ``` 
