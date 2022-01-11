@@ -1,0 +1,1 @@
+- check meta tags and recheck class inputs for each page in progress. some stuff is carried over from medicomm that shouldnt be
