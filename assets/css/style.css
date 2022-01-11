@@ -1,4 +1,4 @@
-body {
+html {
   font-family: "Inter";
 }
 @media (max-width: 1920px) {
@@ -1004,16 +1004,22 @@ body {
     width: 37.5%;
     height: 25%;
   }
-
+ .card-header {
+ color: #30c13f !important;
+  }
   #heading {
     background-color: #f3f8f5;
-    font-family: "Inter";
   }
   
-  #btn {
-    color: #269a32;
-  }
-  .card-body {
+  .btn-link {
     color: #30c13f;
+  }
+  #jumbotron {
+    background-color: #f3f8f5;
     font-family: "Inter";
+    color: #30c13f;
+  }
+  #btn-data {
+    background-color: #269a32;
+    color: #ffffff;
   }
