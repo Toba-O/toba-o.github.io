@@ -109,29 +109,11 @@ body {
   position: relative;
   transition: 0.3s ease;
   cursor: pointer;
-  border-color: rgba(0, 0, 0, 0);
 }
 
-.nav-item .nav-link::after {
-  display: block;
-  background-color: black;
-  width: 100%;
-  left: 0;
-  transform-origin: bottom center;
-  height: 2px;
-  position: absolute;
-  bottom: 0;
-  transform: scaleX(0);
-  transition: 0.3s ease;
-  content: "";
-}
 
 .nav-item .nav-link:hover {
   color: #3755be !important;
-}
-
-.nav-item .nav-link:hover::after {
-  transform: scaleX(0.3);
 }
 
 
