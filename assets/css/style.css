@@ -23,7 +23,6 @@ html {
   scroll-behavior: smooth;
   overflow-y: auto;
   overflow-x: hidden !important;
-  font-family: "Inter";
 }
 
 body {
@@ -109,11 +108,29 @@ body {
   position: relative;
   transition: 0.3s ease;
   cursor: pointer;
+  border-color: rgba(0, 0, 0, 0);
 }
 
+.nav-item .nav-link::after {
+  display: block;
+  background-color: black;
+  width: 100%;
+  left: 0;
+  transform-origin: bottom center;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  transform: scaleX(0);
+  transition: 0.3s ease;
+  content: "";
+}
 
 .nav-item .nav-link:hover {
-  color: #30c13f;
+  color: #3755be !important;
+}
+
+.nav-item .nav-link:hover::after {
+  transform: scaleX(0.3);
 }
 
 
@@ -362,7 +379,7 @@ body {
   color: inherit;
   padding: 0;
   background: none;
-  background-image: linear-gradient(120deg, rgba(56, 134, 89, 0.4) 0%, rgba(56, 134, 89, 0.4) 100%);
+  background-image: linear-gradient(120deg), #30c13f 100%);
   background-repeat: no-repeat;
   background-position: 0 100%;
   background-size: 0% 0.3em;
@@ -1003,8 +1020,17 @@ body {
     background-color: #269a32;
     color: #ffffff;
   }
-  
-.mb-3 {
+  .mb-3 {
     width: 75%;
     height: 56.25%;
+  }
+  .album {
+    font-family: "Inter";
+  }
+  .resource-card {
+    font-weight: 600;
+    color: #30c13f !important;
+  }
+  .btn-sm {
+    color: #269a32 !important;
   }
