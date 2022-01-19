@@ -122,7 +122,7 @@ body {
 }
 
 .nav-item .nav-link:hover {
-  color: #3755BE !important; 
+  color: #269a32 !important; 
 }
 
 .nav-item .nav-link:hover::after {
@@ -150,9 +150,9 @@ body {
     padding-bottom: 2.5%;
   }
   .highlight {
-  color: #3755be !important;
-  background-color: rgba(211, 224, 237, 0.2);
-  text-decoration: underline #6b8cff;
+  color: #30c13f !important;
+  background-color: #f3f8f5;
+  text-decoration: underline #269a32;
     
 }
   .presshookdesc {
