@@ -510,12 +510,12 @@ body {
 
 .underline1 {
   display: inline;
-  text-decoration: underline #30c13f;
+  text-decoration: underline #269a32 ;
 }
 
 .effectword {
   display: inline;
-  color: #388659;
+  color: #30c13f;
 }
 
  .svgarrow {
