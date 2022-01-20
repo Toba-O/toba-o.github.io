@@ -1,4 +1,3 @@
-
 @media (max-width: 1920px) {
   /** Main **/
   body {
@@ -140,7 +139,7 @@
     font-family: "Inter", sans-serif !important;
     font-weight: 400;
     font-size: 1.125rem;
-    color: #3755be;
+    color: #30c13f;
     margin-top: 10%;
     margin-bottom: 25px;
   }
@@ -156,8 +155,8 @@
     height: 150px;
   }
   .impactword {
-    color: #3755be;
-    text-decoration: underline #6b8cff;
+    color: #30c13f;
+    text-decoration: underline #269a32;
   }
 
   hr {
@@ -169,7 +168,7 @@
   }
 
   #section1 {
-    background: #3755be !important;
+    background: #269a32 !important;
   }
 
   #section2 {
@@ -285,8 +284,8 @@
   hr {
     margin-left: 2.5px;
     max-width: 50px;
-    color: #3755be !important;
-    border-color: #3755be;
+    color: #269a32 !important;
+    border-color: #269a32;
     border-width: 6px;
   }
 }
@@ -314,3 +313,4 @@
     display: none;
   }
 }
+
