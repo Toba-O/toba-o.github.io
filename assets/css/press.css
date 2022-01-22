@@ -149,9 +149,9 @@
   }
 
   .highlight {
-    color: #30c13f !important;
+    color: #3755be !important;
     background-color: rgba(211, 224, 237, 0.2);
-    text-decoration: underline #269a32;
+    text-decoration: underline #6b8cff;
   }
 
   .presshookdesc {
@@ -253,7 +253,7 @@
   .card-link {
     font-size: 16px;
     font-weight: 600;
-    color: #30c13f;
+    color: rgb(55, 85, 190);
   }
 
   .arrow {
