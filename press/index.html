@@ -142,38 +142,41 @@
       </section>
     </section>
     
-    <!-- Contact Section -->
+      <!-- Contact Section -->
       <section class="footer-section">
         <footer class="pb-4 bg-primary-3 text-light">
           <div class="container">
             <div class="row mb-5">
               <div class="col">
-                <a href="https://toba-o.github.io/medicomm-backup/">
-                  <img src="/medicomm-backup/assets/official-medicomm-logo.png" alt="Medicomm Logo" class="mb-3 footerimg" />
+                <a href="https://toba-o.github.io/">
+                  <img src="https://toba-o.github.io/assets/images/combinationfooter.png" alt="RCF Logo" class="mb-3 footerimg" />
                 </a>
-                <p><strong>Medicomm</strong> is a medical telecommunications company dedicated to producing medical utilities and equipment for all companies, big or small! Join or partner with us today</p>
+                <p><strong>RCF</strong> is a initative dedicated to helping the community reduce the carbon footprint. Consider joining the movement and helping reduce the global carbon fooprint.</p>
               </div>
 
               <div class="col-6 col-lg col-xl-2">
-                <h1 class="fsubhead">Company</h1>
+                <h1 class="fsubhead">Initiative</h1>
                 <ul class="nav flex-column">
                   <li class="footerlink">
-                    <a href="https://toba-o.github.io/medicomm-backup/" class="footerlink">Home</a>
+                    <a href="https://toba-o.github.io/" class="footerlink">Home</a>
                   </li>
                   <li class="footerlink">
-                    <a href="https://toba-o.github.io/medicomm-backup/about/" class="footerlink">About</a>
+                    <a href="https://toba-o.github.io/about/" class="footerlink">About Us</a>
                   </li>
                   <li class="footerlink">
-                    <a href="https://toba-o.github.io/medicomm-backup/soon/" class="footerlink">Products</a>
+                    <a href="https://toba-o.github.io/tips/" class="footerlink">Tips</a>
                   </li>
                   <li class="footerlink">
-                    <a href="https://toba-o.github.io/medicomm-backup/soon/" class="footerlink">Services</a>
+                    <a href="https://toba-o.github.io/tricks/" class="footerlink">Tricks</a>
                   </li>
                   <li class="footerlink">
-                    <a href="https://toba-o.github.io/medicomm-backup/soon/" class="footerlink">Covid-19</a>
+                    <a href="https://toba-o.github.io/data/" class="footerlink">Data</a>
                   </li>
                   <li class="footerlink">
-                    <a href="https://toba-o.github.io/medicomm-backup/sources/" class="footerlink">Sources</a>
+                    <a href="https://toba-o.github.io/resources/" class="footerlink">Resources</a>
+                  </li>
+                  <li class="footerlink">
+                    <a href="https://toba-o.github.io/contacts/" class="footerlink">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -182,24 +185,19 @@
                 <h1 class="fsubhead">Support</h1>
 
                 <ul class="nav flex-column">
-                  <li class="footerlink">
-                    <a href="https://toba-o.github.io/medicomm-backup/soon/" class="footerlink">Contact Us</a>
-                  </li>
 
                   <li class="footerlink">
-                    <a href="https://toba-o.github.io/medicomm-backup/press/" class="footerlink">Press</a>
+                    <a href="https://toba-o.github.io/press/" class="footerlink">Press</a>
                   </li>
 
-                  <li class="footerlink">
-                    <a href="https://toba-o.github.io/medicomm-backup/es/" class="footerlink">Español</a>
-                  </li>
+   
                 </ul>
               </div>
             </div>
             <div class="row justify-content-center">
               <div class="col col-md-auto text-center">
                 <div class="border-top pt-2">
-                  <small class="text-light">Copyright &copy; 2020-2021 All rights reserved | Medicomm Telecommunications</small>
+                  <small class="text-light">Copyright &copy; 2020-2021 All rights reserved | RCF </small>
                 </div>
               </div>
             </div>
@@ -207,30 +205,76 @@
         </footer>
       </section>
 
-    <div class="salutations">
-      <p>Thanks for visiting! We hope you to see you again soon <span class="wave">👋</span></p>
+      <div class="salutations">
+        <p>Thanks for visiting! We hope you to see you again soon <span class="wave">👋</span></p>
+      </div>
+
+      <!-- Bootstrap required scripts -->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+      <!-- Other scripts -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+
+      <script>
+        $(".hamburger").click(function () {
+          $(this).toggleClass("is-active");
+        });
+      </script>
+      <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+      <script>
+        AOS.init();
+      </script>
+
+      <!-- Typed.js (animated typing effect) -->
+      <script>
+        var typed = new Typed(".element", {
+          strings: ["initative attempting to reduce the global carbon footprint."],
+          typeSpeed: 40,
+          loop: false,
+        });
+
+        document.addEventListener("aos:in:super-duper", ({ detail }) => {
+          var typed2 = new Typed("#typed2", {
+            strings: ["we need you"],
+            typeSpeed: 45,
+            loop: false,
+          });
+        });
+      </script>
+
+      <!-- Tilt.js (3d tilting/hover effects) -->
+      <script>
+        $(".p-2").tilt({
+          scale: 1.05,
+          perspective: 500,
+        });
+
+        $(".p-2").tilt({
+          reset: true,
+          scale: 1.05,
+          easing: "cubic-bezier(.03,.98,.52,.99)",
+          perspective: 1000,
+          maxTilt: 00,
+        });
+        $(".p-2").tilt({
+          reset: true,
+          scale: 1.05,
+          easing: "cubic-bezier(.03,.98,.52,.99)",
+          perspective: 1000,
+          maxTilt: 00,
+        });
+      </script>
+
+      <script type="text/javascript">
+        window.addEventListener("load", function () {
+          document.querySelector("body").classList.add("loaded");
+        });
+      </script>
+
     </div>
-
-    <!-- Bootstrap required scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <!-- Other scripts -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-    <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
-    <script>
-      AOS.init();
-    </script>
-
-    <!-- Typed.js (animated typing effect) -->
-    <script>
-      var typed = new Typed(".element", {
-        strings: ["climate change", "the carbon footprint", "environmental concerns", "greenhouse gasses", "renewable energy", "sea-level rise"],
-        typeSpeed: 100,
-        smartBackspace: true,
-        loop: true,
-      });
-    </script>
   </body>
 </html>
+
