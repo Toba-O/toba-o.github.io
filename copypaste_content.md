@@ -9,7 +9,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <meta name="keywords" content="RCF, RCF.org, rcf, initiative, non-profit, Carbon Footprint, Reduce, climate change, carbon, sea-level rise, global warming, RCF org, RCF .org" />
+    <meta name="keywords" content="RCF, reducecf.org, rcf, initiative, non-profit, Carbon Footprint, Reduce, climate change, carbon, sea-level rise, global warming, reducecf org, reducecf .org" />
     <meta name="description" content="At RCF, we seek to provide visitors with information regarding the current state of the global carbon footprint and what we can do as individuals in order to reduce our own personal footprint. We hope you take something with you and implement it in your daily lives." />
     <meta name="theme-color" content="#ffffff" />
     <meta property="og:locale" content="en_US" />
