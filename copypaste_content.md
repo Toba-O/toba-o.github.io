@@ -9,23 +9,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <meta name="keywords" content="Medicomm, Medicomm.org, medicomm, organization, company, Medicine, Telecommunications, medical communications, medical, telemedicine, telemed, medicomm org, medicomm .org" />
-    <meta name="description" content="Medicomm is a medical telecommunications company dedicated to producing medical utilities and equipment for all companies, big or small!  Join or partner with us today" />
+    <meta name="keywords" content="RCF, RCF.org, rcf, initiative, non-profit, Carbon Footprint, Reduce, climate change, carbon, sea-level rise, global warming, RCF org, RCF .org" />
+    <meta name="description" content="At RCF, we seek to provide visitors with information regarding the current state of the global carbon footprint and what we can do as individuals in order to reduce our own personal footprint. We hope you take something with you and implement it in your daily lives." />
     <meta name="theme-color" content="#ffffff" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="organization" />
-    <meta property="og:title" content="Medicomm Telecommunications" />
-    <meta property="og:description" content="Medicomm is a medical telecommunications company dedicated to producing medical utilities and equipment for all companies, big or small!  Join or partner with us today" />
-    <meta property="og:url" content="https://medicomm.org/" />
-    <meta property="og:site_name" content="Medicomm" />
-    <meta name="og:image" content="/assets/images/Logo.png" />
+    <meta property="og:title" content="RCF" />
+    <meta property="og:description" content="At RCF, we seek to provide visitors with information regarding the current state of the global carbon footprint and what we can do as individuals in order to reduce our own personal footprint. We hope you take something with you and implement it in your daily lives." />
+    <meta property="og:url" content="https://toba-o.github.io/" />
+    <meta property="og:site_name" content="RCF" />
+    <meta name="og:image" content="https://toba-o.github.io/assets/images/RCFSmall.png" />
 
-    <link rel="icon" type="image/png" href="/assets/images/Logo.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="/assets/images/medicomm_favicon_32.png" sizes="32x32" />
-    <link rel="apple-touch-icon" type="image/png" href="/assets/images/medicomm_favicon_180.png" sizes="180x180" />
-    <link rel="icon" type="image/png" href="/assets/images/medicomm_favicon_192.png" sizes="192x192" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="/assets/images/medicomm_favicon_270.png" />
+   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+   <link rel="manifest" href="/site.webmanifest">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="https://toba-o.github.io/assets/css/style.css" media="all" />
