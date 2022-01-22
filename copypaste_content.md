@@ -109,7 +109,7 @@
         <!--Navigation bar-->
         <nav class="nav-menu-top navbar navbar-expand-lg navbar-light bg-white">
           <div class="ml-auto">
-            <a class="navbar-brand" href="https://toba-o.github.io/"><img src="https://toba-o.github.io/assets/images/Combinationlogo.png" width="" height="53.5" class="d-inline-block align-top" alt="Medicomm Nav Logo" /></a>
+            <a class="navbar-brand" href="https://toba-o.github.io/"><img src="https://toba-o.github.io/assets/images/Combinationlogo.png" width="" height="53.5" class="d-inline-block align-top" alt="RCF Nav Logo" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <div class="wrapper">
                 <div class="hamburger hamburger--squeeze js-hamburger">
@@ -184,13 +184,13 @@
             <div class="row mb-5">
               <div class="col">
                 <a href="https://toba-o.github.io/">
-                  <img src="https://toba-o.github.io/assets/images/combinationfooter.png" alt="Medicomm Logo" class="mb-3 footerimg" />
+                  <img src="https://toba-o.github.io/assets/images/combinationfooter.png" alt="RCF Logo" class="mb-3 footerimg" />
                 </a>
                 <p><strong>RCF</strong> is a initative dedicated to helping the community reduce the carbon footprint. Consider joining the movement and helping reduce the global carbon fooprint.</p>
               </div>
 
               <div class="col-6 col-lg col-xl-2">
-                <h1 class="fsubhead">Company</h1>
+                <h1 class="fsubhead">Initiative</h1>
                 <ul class="nav flex-column">
                   <li class="footerlink">
                     <a href="https://toba-o.github.io/" class="footerlink">Home</a>
@@ -211,9 +211,6 @@
                     <a href="https://toba-o.github.io/resources/" class="footerlink">Resources</a>
                   </li>
                   <li class="footerlink">
-                    <a href="https://toba-o.github.io/sources/" class="footerlink">Sources</a>
-                  </li>
-                  <li class="footerlink">
                     <a href="https://toba-o.github.io/contacts/" class="footerlink">Contact</a>
                   </li>
                 </ul>
@@ -225,12 +222,10 @@
                 <ul class="nav flex-column">
 
                   <li class="footerlink">
-                    <a href="https://toba-o.github.io/medicomm-backup/press/" class="footerlink">Press</a>
+                    <a href="https://toba-o.github.io/press/" class="footerlink">Press</a>
                   </li>
 
-                  <li class="footerlink">
-                    <a href="https://toba-o.github.io/medicomm-backup/es/" class="footerlink">Español</a>
-                  </li>
+   
                 </ul>
               </div>
             </div>
