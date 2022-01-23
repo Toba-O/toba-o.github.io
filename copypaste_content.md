@@ -156,11 +156,6 @@
                   <a class="nav-link" href="https://toba-o.github.io/data/">Data</a>
                 </li>
 
-                <!--- Sources --->
-                <li class="nav-item">
-                  <a class="nav-link" href="https://toba-o.github.io/sources/">Sources</a>
-                </li>
-
                 <!--- Contact -->
                 <li class="nav-item">
                   <a class="nav-link" href="https://toba-o.github.io/contacts/">Contact</a>
@@ -205,10 +200,10 @@
                     <a href="https://toba-o.github.io/tricks/" class="footerlink">Tricks</a>
                   </li>
                   <li class="footerlink">
-                    <a href="https://toba-o.github.io/data/" class="footerlink">Data</a>
+                    <a href="https://toba-o.github.io/resources/" class="footerlink">Resources</a>
                   </li>
                   <li class="footerlink">
-                    <a href="https://toba-o.github.io/resources/" class="footerlink">Resources</a>
+                    <a href="https://toba-o.github.io/data/" class="footerlink">Data</a>
                   </li>
                   <li class="footerlink">
                     <a href="https://toba-o.github.io/contacts/" class="footerlink">Contact</a>
