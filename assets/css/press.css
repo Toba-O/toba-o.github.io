@@ -253,7 +253,7 @@
   .card-link {
     font-size: 16px;
     font-weight: 600;
-    color: rgb(55, 85, 190);
+    color: #30c13f;
   }
 
   .arrow {
@@ -263,7 +263,7 @@
   }
 
   .card-link:hover {
-    color: rgb(55, 85, 190);
+    color: #30c13f;
   }
 
   .card-link:hover .arrow {
