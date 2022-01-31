@@ -28,6 +28,7 @@ each website page needs a directory (so instead of tricks.html, do /tricks/index
       - AOS
       - Purecounter
       - Pagepiling
+      - Page Loading
     - SVG
 - Talk about scalability
 - Light and dark green color scheme
