@@ -36,4 +36,10 @@ each website page needs a directory (so instead of tricks.html, do /tricks/index
   - json object
   - querySelector
   - addEventListener
+- Meta Tags
+  - Browser Priority
+  - Favicons for header
+- Logo Design
+  - Creative Design
+  - Pops out
 
