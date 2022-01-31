@@ -13,6 +13,7 @@ each website page needs a directory (so instead of tricks.html, do /tricks/index
 - Talk about leveraging css and js
   - API's
     - Power of information 
+    - Object-Oriented Programming
   - Bootstrap
     - Cards
     - Carousel
