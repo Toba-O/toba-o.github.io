@@ -9,7 +9,31 @@ each website page needs a directory (so instead of tricks.html, do /tricks/index
   -  Fix issues with Resources Section
   -  Re-add the highlight, where does it keep going
 
+### Presentation
+- Talk about leveraging css and js
+  - API's
+    - Power of information 
+  - Bootstrap
+    - Cards
+    - Carousel
+    - Badges
+    - Headers 
+    - Footers
+    - Accordian
+    - Tool Tip
+  - Arcgis
+  - Animations
+    - JS
+      - Typed
+      - AOS
+      - Purecounter
+      - Pagepiling
+    - SVG
+- Talk about scalability
+- Light and dark green color scheme
+- API
+  - fetch request
+  - json object
+  - querySelector
+  - addEventListener
 
-### snip
-- About Us
-- Espanol
