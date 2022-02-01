@@ -44,4 +44,9 @@ each website page needs a directory (so instead of tricks.html, do /tricks/index
 - Logo Design
   - Creative Design
   - Pops out
+- Github & Git
+  - Version Control 
+  - Reverting changes
+  - Merging Code
+  - Push and Pulling
 
