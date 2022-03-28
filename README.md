@@ -4,11 +4,8 @@ public-private
 each website page needs a directory (so instead of tricks.html, do /tricks/index.html)
 ### Ideas to discuss 
 - To-do
-  - Press Section
-  -  Espanol
-  -  Fix issues with Resources Section
-  -  Re-add the highlight, where does it keep going
-
+  - Add Google Form for Contact
+  - Fix Tips and Tricks layout
 ### Presentation
 - Talk about leveraging css and js
   - API's
