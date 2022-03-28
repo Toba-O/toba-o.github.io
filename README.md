@@ -6,6 +6,7 @@ each website page needs a directory (so instead of tricks.html, do /tricks/index
 - To-do
   - Add Google Form for Contact
   - Fix Tips and Tricks layout
+  - Look into Geocoding and users location's aqi
 ### Presentation
 - Talk about leveraging css and js
   - API's
