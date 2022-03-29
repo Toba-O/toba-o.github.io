@@ -29,6 +29,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <style>
       /* Typing Animation */
       .loading-animation {
@@ -211,8 +213,23 @@
     <td>Mexico City</td>
     <td class="mexicocityaqi"></td>
   </tr>
+
+  <tr>
+    <th scope="col">Your Local Air Quality</th>
+    <th scope="col">Air Quality Index</th>
+  </tr>
+  <tr>
+    <td>
+      <div>
+      <input id="input" placeholder="Enter your Zipcode" class="input" type="text"></input> 
+      <input type="submit"></input>
+    </div>
+      </td>
+    <td class="output"></td>
 </tbody>
 </table>
+
+
 
       <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Carbon Footprint" src="//www.arcgis.com/apps/Embed/index.html?webmap=3001b967111a4e52a4e33ad8c63f8ad8&extent=-127.675,21.8948,-62.7678,51.449&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&disable_scroll=true&theme=light"></iframe></div>
       <section class="gap"></section>
@@ -347,7 +364,7 @@
           document.querySelector("body").classList.add("loaded");
         });
       </script>
-
+      
     </div>
   </body>
 </html>
