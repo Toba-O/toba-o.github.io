@@ -53,31 +53,38 @@ document.addEventListener('DOMContentLoaded', function() {
         method: 'GET',
     };
     var input = document.getElementById("submit");
+
+    function solve(value) {
+        function local(lat, lon) {
+            fetch(("https://air-quality-by-api-ninjas.p.rapidapi.com/v1/airquality?lat=" + lat + "&lon=" + lon), {
+                    "method": "GET",
+                    "headers": {
+                        "x-rapidapi-host": "air-quality-by-api-ninjas.p.rapidapi.com",
+                        "x-rapidapi-key": "dca0b29f8cmshddb3b0e17a561e2p1ead4bjsnb82d93d300ff"
+                    }
+                })
+                .then(response => response.json())
+                .then(data => {
+                    
+                    document.querySelector('.output').innerHTML = data.overall_aqi;
+                    document.querySelector('.output').style.color = determinecolor(data.overall_aqi);
+                })
+        }
+            fetch(`https://api.geoapify.com/v1/geocode/search?text=${encodeURIComponent(value)}&apiKey=ff3461b91a664386b04f70f4eb031bd4`, requestOptions)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.features.length == 0) {
+                        document.querySelector('.output').innerHTML = "Invalid Zipcode";
+                    }
+                    local(data.features[0].properties.lat, data.features[0].properties.lon)
+                });
+        
+    }
     input.addEventListener('click', event => {
-	var address = document.querySelector('.input').innerHTML;
-       
+        var address = document.getElementById('input').value;
+      
+        solve(address);
     });
 
-    function local(lat, lon) {
-        fetch(("https://air-quality-by-api-ninjas.p.rapidapi.com/v1/airquality?lat=" + lat + "&lon=" + lon), {
-                "method": "GET",
-                "headers": {
-                    "x-rapidapi-host": "air-quality-by-api-ninjas.p.rapidapi.com",
-                    "x-rapidapi-key": "dca0b29f8cmshddb3b0e17a561e2p1ead4bjsnb82d93d300ff"
-                }
-            })
-            .then(response => response.json())
-            .then(data => {
-                document.querySelector('.output').innerHTML = data.overall_aqi;
-                document.querySelector('.output').style.color = determinecolor(data.overall_aqi);
-            });
-    }
-    fetch(`https://api.geoapify.com/v1/geocode/search?text=${encodeURIComponent(address)}&apiKey=ff3461b91a664386b04f70f4eb031bd4`, requestOptions)
-        .then(response => response.json())
-        .then(data => {
-            if (data.features.length == 0) {
-                console.log("Invalid")
-            }
-            local(data.features[0].properties.lat, data.features[0].properties.lon)
-        })
+
 });
