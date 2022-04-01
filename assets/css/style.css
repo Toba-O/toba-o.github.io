@@ -585,7 +585,10 @@ body {
   background-color: #fff !important;
   color: black !important;
 }
-
+.content {
+  display: block;
+  margin-left: 20px;
+}
   .fromwho {
   font-weight: 600;
   color: #269a32 !important;
