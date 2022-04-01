@@ -4,8 +4,6 @@ public-private
 each website page needs a directory (so instead of tricks.html, do /tricks/index.html)
 ### Ideas to discuss 
 - To-do
-  - Fix the year on the footer
-  - About Us
   - Tricks
   - Link for Home
 ### Presentation
