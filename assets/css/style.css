@@ -1037,7 +1037,7 @@ body {
     color: #30c13f !important;
   }
  .medicommtextgreen {
-   color: #30c13f;
+   color: #30c13f; !important;
 }
   .btn-sm {
     color: #269a32 !important;
