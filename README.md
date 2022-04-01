@@ -4,7 +4,6 @@ public-private
 each website page needs a directory (so instead of tricks.html, do /tricks/index.html)
 ### Ideas to discuss 
 - To-do
-  - Tricks
   - Link for Home
 ### Presentation
 - Talk about leveraging css and js
